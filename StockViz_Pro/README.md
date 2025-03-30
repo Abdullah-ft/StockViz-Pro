@@ -3,91 +3,94 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)  
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 
-A **modern, interactive stock analytics dashboard** built with Streamlit to visualize real-time stock data, compare performance, and analyze market trends. Perfect for investors and data enthusiasts.
+A **modern, interactive stock analytics dashboard** built with **Streamlit** to visualize real-time stock data, compare performance, and analyze market trends. Perfect for investors and data enthusiasts! 🚀
 
 ---
 
-## 📦 Installation
+## 📚 Course Details
+- **Course Name:** Programming for Finance  
+- **Instructor:** Dr. Usama Arshad  
 
-### Prerequisites
-- Python 3.8+
+---
+
+## 🌍 Live Demo
+🔗 **Deployment Link:** [StockViz-Pro Dashboard](https://stockviz-pro-vaurtc4svmmjmmb6sxg2ac.streamlit.app/)  
+
+---
+
+## 📦 Installation Guide
+
+### ✅ Prerequisites
+- Python **3.8+**
 - `pip` package manager
 
-### Steps
-1. **Clone the repository**:
+### 📌 Steps to Install & Run
+1️⃣ **Clone the repository**
    ```bash
    git clone https://github.com/your-username/StockViz-Pro.git
    cd StockViz-Pro
    ```
-2. **Install dependencies**:
+2️⃣ **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the app**:
+3️⃣ **Run the app**
    ```bash
    streamlit run stockviz.py
    ```
 
 ---
 
-## 🚀 Features
+## 🚀 App Overview
+StockViz-Pro provides an interactive **real-time stock analysis** experience. Here’s what you can do:
 
-- **📊 Single Stock Analysis**  
-  Track live prices, historical candlestick charts, and company details for any stock symbol (e.g., `AAPL`, `TSLA`).
+### 🔍 **Single Stock Analysis**
+✔️ Track live stock prices  
+✔️ View historical candlestick charts  
+✔️ Get company details instantly  
 
-- **🔗 Multi-Stock Comparison**  
-  Compare up to 5 stocks with normalized price trends and correlation heatmaps over customizable timeframes (`1d` to `10y`).
+### 📈 **Multi-Stock Comparison**
+✔️ Compare up to **5 stocks** at once  
+✔️ View **normalized price trends**  
+✔️ Analyze **correlation heatmaps**  
 
-- **🌐 Market Overview**  
-  Monitor major indices like **S&P 500 (^GSPC)**, **NASDAQ (^IXIC)**, and **Dow Jones (^DJI)** in real time.
+### 🌐 **Market Overview**
+✔️ Monitor major indices like **S&P 500 (^GSPC)**, **NASDAQ (^IXIC)**, and **Dow Jones (^DJI)** in real-time  
 
-- **🎨 Dynamic UI**  
-  Dark theme with animated gradients, hover effects, and responsive design.
-
----
-
-## 🖥️ Usage
-
-### Single Stock Analysis
-1. Enter a stock symbol (e.g., `GOOGL`) in the input field.
-2. View real-time metrics, candlestick charts, and company details.
-
-### Stock Comparison
-1. Enter comma-separated symbols (e.g., `MSFT,AMZN,NVDA`).
-2. Adjust the time period slider and explore correlation heatmaps.
-
-### Market Indices
-- Scroll to the bottom to see live updates for major indices.
+### 🎨 **Dynamic UI**
+✔️ Dark theme with **animated gradients & hover effects**  
+✔️ Fully **responsive design**  
 
 ---
 
-## 🛠️ Libraries Used
+## 🛠️ Technologies & Libraries Used
 
 | Library    | Purpose                                      |
 |------------|----------------------------------------------|
-| Streamlit  | Build interactive web app interface        |
-| yfinance   | Fetch real-time stock data                 |
-| Plotly     | Render interactive charts                  |
-| Pandas     | Clean and structure data                   |
-| NumPy      | Normalize data for comparisons             |
+| **Streamlit**  | Build interactive web app interface       |
+| **yfinance**   | Fetch real-time stock data               |
+| **Plotly**     | Render interactive charts                |
+| **Pandas**     | Clean and structure data                 |
+| **NumPy**      | Normalize data for comparisons           |
 
 ---
 
-## 🌍 Deployment
-
-### Streamlit Cloud (Recommended)
-1. Push the code to a GitHub repository.
-2. Sign in to [Streamlit Cloud](https://share.streamlit.io/).
-3. Deploy `stockviz.py` and add `requirements.txt` for dependencies.
+## 🚀 Deployment Guide
+### **Streamlit Cloud (Recommended)**
+1️⃣ Push your code to **GitHub**  
+2️⃣ Sign in to [Streamlit Cloud](https://share.streamlit.io/)  
+3️⃣ Deploy `stockviz.py` and add `requirements.txt`  
 
 ---
 
 ## 📜 License
-MIT License - See `LICENSE` for details.
+📄 **MIT License** - See `LICENSE` for details.
 
 ---
 
 ## 🌟 Pro Tips
-- Bookmark the dashboard for quick access to live market insights!
-- 🐞 Report Issues: [GitHub Issues](https://github.com/your-username/StockViz-Pro/issues)
+💡 **Bookmark** the dashboard for quick access to market insights!  
+💡 **Report Issues:** [GitHub Issues](https://github.com/your-username/StockViz-Pro/issues)  
+
+🚀 Happy Investing & Analyzing! 📊
 
