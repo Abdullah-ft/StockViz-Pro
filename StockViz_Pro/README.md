@@ -17,7 +17,7 @@ A **modern, interactive stock analytics dashboard** built with **Streamlit** to 
 🔗 **Deployment Link:** [StockViz-Pro Dashboard](https://stockviz-pro-vaurtc4svmmjmmb6sxg2ac.streamlit.app/) 
 
 🎥 **Watch the Demo Video:**  
-[Click here to watch](https://github.com/your-username/StockViz-Pro/blob/main/demo.mp4)
+[Click here to watch](https://github.com/Abdullah-ft/StockViz-Pro/blob/main/demo.mp4)
 
 
 ---
