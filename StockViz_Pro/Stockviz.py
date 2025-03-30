@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Custom CSS
-with open('styles.css') as f:
+with open(os.path.join(os.path.dirname(__file__), 'styles.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Initialize session state
