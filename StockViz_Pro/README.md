@@ -1,17 +1,32 @@
 # 📈 StockViz-Pro: Real-Time Stock Market Dashboard
 
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)  
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 
 A **modern, interactive stock analytics dashboard** built with Streamlit to visualize real-time stock data, compare performance, and analyze market trends. Perfect for investors and data enthusiasts.
 
-## Install dependencies:
+---
 
-pip install -r requirements.txt
+## 📦 Installation
 
-## Run the app
+### Prerequisites
+- Python 3.8+
+- `pip` package manager
 
-streamlit run stockviz.py
+### Steps
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/StockViz-Pro.git
+   cd StockViz-Pro
+   ```
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the app**:
+   ```bash
+   streamlit run stockviz.py
+   ```
 
 ---
 
@@ -31,57 +46,48 @@ streamlit run stockviz.py
 
 ---
 
-## ⚙️ Installation
+## 🖥️ Usage
 
-### Prerequisites
+### Single Stock Analysis
+1. Enter a stock symbol (e.g., `GOOGL`) in the input field.
+2. View real-time metrics, candlestick charts, and company details.
 
-- Python 3.8+
-- `pip` package manager
+### Stock Comparison
+1. Enter comma-separated symbols (e.g., `MSFT,AMZN,NVDA`).
+2. Adjust the time period slider and explore correlation heatmaps.
 
-### Steps
+### Market Indices
+- Scroll to the bottom to see live updates for major indices.
 
-1. **Clone the repository**:
+---
 
-   ```bash
-   git clone https://github.com/your-username/StockViz-Pro.git
-   cd StockViz-Pro
+## 🛠️ Libraries Used
 
-   🖥️ Usage
-   Single Stock Analysis
-   ```
+| Library    | Purpose                                      |
+|------------|----------------------------------------------|
+| Streamlit  | Build interactive web app interface        |
+| yfinance   | Fetch real-time stock data                 |
+| Plotly     | Render interactive charts                  |
+| Pandas     | Clean and structure data                   |
+| NumPy      | Normalize data for comparisons             |
 
-Enter a stock symbol (e.g., GOOGL) in the input field.
+---
 
-View real-time metrics, candlestick charts, and company details.
+## 🌍 Deployment
 
-Stock Comparison
+### Streamlit Cloud (Recommended)
+1. Push the code to a GitHub repository.
+2. Sign in to [Streamlit Cloud](https://share.streamlit.io/).
+3. Deploy `stockviz.py` and add `requirements.txt` for dependencies.
 
-Enter comma-separated symbols (e.g., MSFT,AMZN,NVDA).
+---
 
-Adjust the time period slider and explore correlation heatmaps.
+## 📜 License
+MIT License - See `LICENSE` for details.
 
-Market Indices
+---
 
-Scroll to the bottom to see live updates for major indices.
+## 🌟 Pro Tips
+- Bookmark the dashboard for quick access to live market insights!
+- 🐞 Report Issues: [GitHub Issues](https://github.com/your-username/StockViz-Pro/issues)
 
-🛠️ Libraries Used
-Library Purpose
-Streamlit Build interactive web app interface
-yfinance Fetch real-time stock data
-Plotly Render interactive charts
-Pandas Clean and structure data
-NumPy Normalize data for comparisons
-
-🌍 Deployment
-Streamlit Cloud (Recommended)
-Push the code to a GitHub repository.
-
-Sign in to Streamlit Cloud.
-
-Deploy app.py and add requirements.txt for dependencies.
-
-📜 License
-MIT License - See LICENSE for details.
-
-🌟 Pro Tip: Bookmark the dashboard for quick access to live market insights!
-🐞 Report Issues: GitHub Issues
